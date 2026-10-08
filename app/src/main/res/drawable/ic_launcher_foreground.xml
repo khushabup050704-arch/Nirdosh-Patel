@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing camera body -->
+    <path
+        android:pathData="M32,38 C32,34.7 34.7,32 38,32 L64,32 C67.3,32 70,34.7 70,38 L70,70 C70,73.3 67.3,76 64,76 L38,76 C34.7,76 32,73.3 32,70 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="32"
+                android:endX="70"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#6366F1" />
+                <item android:offset="0.5" android:color="#8B5CF6" />
+                <item android:offset="1.0" android:color="#EC4899" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Projector / Camera lens cone on right -->
+    <path
+        android:pathData="M70,46 L82,37 C83.2,36 85,36.8 85,38.4 L85,69.6 C85,71.2 83.2,72 82,71 L70,62 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="70"
+                android:startY="46"
+                android:endX="85"
+                android:endY="71"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#8B5CF6" />
+                <item android:offset="1.0" android:color="#D946EF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Play symbol in the center -->
+    <path
+        android:pathData="M47,46 L58,54 L47,62 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- AI Sparkle 1 (Top right) -->
+    <path
+        android:pathData="M72,25 Q72,30 77,30 Q72,30 72,35 Q72,30 67,30 Q72,30 72,25 Z"
+        android:fillColor="#FDE047" />
+
+    <!-- AI Sparkle 2 (Small bottom left) -->
+    <path
+        android:pathData="M27,62 Q27,65 30,65 Q27,65 27,68 Q27,65 24,65 Q27,65 27,62 Z"
+        android:fillColor="#38BDF8" />
+</vector>

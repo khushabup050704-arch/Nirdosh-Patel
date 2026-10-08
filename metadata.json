@@ -1,0 +1,6 @@
+{
+  "name": "Nirdosh AI Video",
+  "description": "State-of-the-art AI Text-to-Video and Image-to-Video generation app with cinematic prompt enhancement, aspect ratio controls, credit management, local video history, and player.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
